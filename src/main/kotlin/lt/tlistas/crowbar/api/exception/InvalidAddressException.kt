@@ -1,3 +1,3 @@
-package lt.tlistas.mobile.number.confirmation.api.exception
+package lt.tlistas.crowbar.api.exception
 
 class InvalidAddressException(message: String) : RuntimeException(message)

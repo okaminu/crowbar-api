@@ -1,4 +1,4 @@
-package lt.tlistas.mobile.number.confirmation.api
+package lt.tlistas.crowbar.api
 
 interface ConfirmationMessageGateway {
     fun send(message: String, address: String)
