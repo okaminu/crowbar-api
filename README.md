@@ -1,3 +1,4 @@
+![Alt text](logo.jpg?raw=true)
 # Crowbar API
 Crowbar library API, it defines *exceptions* which are thrown by Crowbar project and *ConfirmationMessageGateway* interface.
 
