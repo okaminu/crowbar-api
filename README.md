@@ -20,3 +20,4 @@ class YourClass(private val confirmationMessageGateway: ConfirmationMessageGatew
 ```
 ### License
 
+This library is licensed under MIT. Full license text is available in [LICENSE](https://github.com/tlistas/Crowbar_API/blob/TLIST-466-mobile-confirmation/LICENSE.txt).
