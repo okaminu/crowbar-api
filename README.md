@@ -5,7 +5,7 @@ Crowbar library API defines *ConfirmationMessageGateway* interface which is used
 ```
 class YourGatewayAdapter() : ConfirmationMessageGateway {
 
-    override fun send(message: String, mobileNumber: String) {
+    override fun send(message: String, address: String) {
         //implementation
     }
 ```
@@ -13,8 +13,8 @@ class YourGatewayAdapter() : ConfirmationMessageGateway {
 ```
 class YourClass(private val confirmationMessageGateway: ConfirmationMessageGateway) {
 
-    fun yourMethod(address: String, message: String) {
-        confirmationMessageGateway.send(address, message)
+    fun yourMethod(message: String, address: String) {
+        confirmationMessageGateway.send(message, address)
     }
 }
 ```
