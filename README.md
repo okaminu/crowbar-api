@@ -18,6 +18,40 @@ class YourClass(private val confirmationMessageGateway: ConfirmationMessageGatew
     }
 }
 ```
+### Download
+* Gradle
+```
+repositories {
+    repositories {
+        maven {
+            url 'http://repository.tlist.no.s3.amazonaws.com/releases/'
+        }
+    }
+}
+
+dependencies {
+    compile "lt.tlistas.crowbar:crowbar-api:1.1.1"
+}
+```
+* Maven
+```
+<repositories>
+        <repository>
+            <id>tlist-release-repo</id>
+            <name>Tlist Release Repository</name>
+            <url>http://repository.tlist.no.s3.amazonaws.com/releases/</url>
+        </repository>
+</repositories>
+
+<dependencies>
+        <dependency>
+            <groupId>lt.tlistas.crowbar</groupId>
+            <artifactId>crowbar-api</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+</dependencies>
+```
+
 ### License
 
 This library is licensed under MIT. Full license text is available in [LICENSE](https://github.com/tlistas/Crowbar_API/blob/TLIST-466-mobile-confirmation/LICENSE.txt).
