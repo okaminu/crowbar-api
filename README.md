@@ -54,5 +54,4 @@ dependencies {
 
 ### License
 
-This library is licensed under MIT. Full license text is available in [LICENSE](https://github
-.com/boldadmin-com/Crowbar_API/blob/dev/LICENSE.txt).
+This library is licensed under MIT. Full license text is available in [LICENSE](https://github.com/boldadmin-com/Crowbar_API/blob/dev/LICENSE.txt).
