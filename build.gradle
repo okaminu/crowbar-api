@@ -13,6 +13,7 @@ plugins {
 apply plugin: 'org.owasp.dependencycheck'
 apply plugin: 'kotlin'
 apply from: 'publish.gradle'
+apply from: 'dependencies.gradle'
 
 group = gradle.ext.group
 version = gradle.ext.version
