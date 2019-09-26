@@ -30,7 +30,7 @@ repositories {
 }
 
 dependencies {
-    compile "lt.boldadmin.crowbar:crowbar-api:2.5.1"
+    compile "lt.boldadmin.crowbar:crowbar-api:2.6.0"
 }
 ```
 * Maven
@@ -47,7 +47,7 @@ dependencies {
     <dependency>
         <groupId>lt.boldadmin.crowbar</groupId>
         <artifactId>crowbar-api</artifactId>
-        <version>2.5.1</version>
+        <version>2.6.0</version>
     </dependency>
 </dependencies>
 ```
